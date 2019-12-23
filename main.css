@@ -1,5 +1,5 @@
 
-ul {
+ul.top-menu {
     list-style-type: none;
     margin-top: 20px;
     padding: 0;
@@ -8,8 +8,9 @@ ul {
     width:100%;
 } 
 
-li {
+ul.top-menu li {
     float:right;
+    display:block;
 }
 
 li a {
@@ -54,4 +55,31 @@ textarea {
     text-align: center;
     margin-left:auto;
     margin-right:auto;
+}
+
+ul.footer-left {
+    list-style-type:none;
+    float:left;
+}
+
+ul.footer-right {
+    list-style-type:none;
+    float:right;
+}
+
+ul.footer-left li {
+    display:block;
+    float:left;
+}
+
+ul.footer-right li {
+    display:block;
+    float:right;
+}
+.footer {
+    width:100%;
+    position:fixed;
+    bottom:0;
+    background-color: rgb(192, 192, 192);
+    border-top: 5px gray;
 }
