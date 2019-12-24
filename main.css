@@ -1,28 +1,3 @@
-
-ul.top-menu {
-    list-style-type: none;
-    margin-top: 20px;
-    padding: 0;
-    position: fixed;
-    top:0;
-    width:100%;
-} 
-
-ul.top-menu li {
-    float:right;
-    display:block;
-}
-
-li a {
-    display: block;
-    margin-right:60px;
-}
-
-li a:hover {
-    background-color: #555;
-    color: black;
-}
-
 img {
     display: block;
     margin-left: auto;
@@ -57,29 +32,47 @@ textarea {
     margin-right:auto;
 }
 
-ul.footer-left {
-    list-style-type:none;
-    float:left;
+.bottom-nav {
+    background-color: rgb(221, 221, 221);
+    border-top-color: rgb(187, 187, 187);
+    border-top: solid 1px;
+    position: fixed;
+    bottom: 0;
+    padding-bottom:10px;
 }
 
-ul.footer-right {
-    list-style-type:none;
-    float:right;
-}
-
-ul.footer-left li {
-    display:block;
-    float:left;
-}
-
-ul.footer-right li {
-    display:block;
-    float:right;
-}
-.footer {
+nav {
+    display:inline-block;
     width:100%;
-    position:fixed;
-    bottom:0;
-    background-color: rgb(192, 192, 192);
-    border-top: 5px gray;
+    height:30px;
+}
+
+.top-nav {
+    top:0px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    display:inline-block;
+    overflow: hidden;
+    float:left;
+}
+
+nav a {
+    display: block;
+    padding:10px;
+}
+
+li {
+    display:inline-block;
+    
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-right {
+    float: right;
 }
